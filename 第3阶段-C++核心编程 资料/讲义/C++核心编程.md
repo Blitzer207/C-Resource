@@ -2510,7 +2510,7 @@ void test() {
 	Person p2(20, 20);
 
 	//成员函数方式
-	Person p3 = p2 + p1;  //相当于 p2.operaor+(p1)
+	Person p3 = p2 + p1;  //相当于 p2.operator+(p1)
 	cout << "mA:" << p3.m_A << " mB:" << p3.m_B << endl;
 
 
